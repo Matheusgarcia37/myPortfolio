@@ -8,7 +8,7 @@ import GlobalStyle from './styles/GlobalStyle';
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <BrowserRouter basename='my-portfolio'>
+    <BrowserRouter basename='myPortfolio'>
       <App />
     </BrowserRouter>
     
