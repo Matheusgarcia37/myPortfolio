@@ -51,7 +51,7 @@ function Resume() {
                         year={'2015 - 2017'} 
                         title={'A - Levels'}
                         subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        text={'Lorem ipsusm dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
                     />
                     <ResumeItem 
                         year={'2015 - 2017'} 
