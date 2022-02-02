@@ -132,7 +132,7 @@ h6{
 .light-dark-mode{
     position: fixed;
     right: 0;
-    top: 50%;
+    bottom: 1%;
     background-color: var(--background-light-color-2);
     width: 6.5rem;
     height: 2.5rem;
@@ -163,6 +163,19 @@ h6{
     .nav-toggle{
         transform: translateX(0);
         z-index: 20;
+    }
+    .maskNavToggle {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.7);
+        z-index: 10;
+        display: none;
+        &.maskActive {
+            display: block;
+        }
     }
   @media screen and (max-width:1200px){
     .ham-burger-menu{

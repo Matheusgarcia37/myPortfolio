@@ -37,8 +37,8 @@ function App() {
 
   return (
     <div className="App">
-        <Sidebar navToggle={navToggle} />
-
+        <Sidebar navToggle={navToggle} setNavToggle={setNavToggle}/>
+        <div  onClick={() => setNavToggle(false)} className={`maskNavToggle ${navToggle ? 'maskActive' : ''}`}></div>
         <div className="theme">
           <div className="light-dark-mode">
               <div className="left-content">
