@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -14,19 +14,18 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Matheus Garcia</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                  {/* Primary text apresentation */}
+                  I'm a <span>Full Stack Developer</span> who is always studying  the best technologies to develop a better and more efficient web and mobile applications. I'm <span>Computer Science</span> student at <span>Instituto Federal do Sul de Minas Gerais</span> and I'm already in the job market applying my knowledge for ten months.
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
+                    <a href="https://www.linkedin.com/in/matheus-garcia-moreira-3153561a4/" className="icon i-facebook" target={'_blank'} rel="noreferrer" >
+                        <LinkedInIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/Matheusgarcia37" className="icon i-github" target={'_blank'} rel="noreferrer">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
-                        <YoutubeIcon />
+                    <a href="https://www.facebook.com/matheus.garcia.946517/" className="icon i-youtube">
+                        <FacebookIcon />
                     </a>
                 </div>
             </div>

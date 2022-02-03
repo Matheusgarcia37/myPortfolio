@@ -12,10 +12,8 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Matheus Garcia</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
-                    
+                    {/* secondy text apresentation */}
+                    I'm a <span>Full Stack Developer</span> based in <span>Minas Gerais, Brazil</span>. I'm passionate about <span>Web Development</span> and <span>Mobile Development</span>. I'm always looking for new challenges and opportunities to learn new things. I'm always open to learn new technologies and technologies that can help me to grow as a developer.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -33,7 +31,7 @@ function ImageSection() {
                         <p>: Web & Mobile Developer</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+                <PrimaryButton title={'Download Cv'} isLink={'https://drive.google.com/file/d/1lN4hwnmLwGhUfbqwYvUbygvzJGfEjb2d/view?usp=sharing'}/>
             </div>
         </ImageSectionStyled>
     )

@@ -25,11 +25,6 @@ function App() {
     document.documentElement.className = theme;
   }, [theme]);
 
-  useEffect(() => {
-    // const favicon = document.getElementById('favicon');
-    // favicon.href = "./img/favicon.ico";
-  })
-
   const themeToggler = () =>{
     if(theme === 'light-theme'){
       setTheme('dark-theme');

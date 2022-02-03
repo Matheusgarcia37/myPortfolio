@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function PrimaryButton({title}) {
+function PrimaryButton({title, isLink}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled onClick={(e) => {
+            e.preventDefault();
+            if(isLink){
+                window.open(isLink, '_blank');
+            }
+        }}>
             {title}
         </PrimaryButtonStyled>
     )
