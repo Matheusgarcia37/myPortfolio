@@ -19,22 +19,14 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'April 2021 - Present, 10 months'} 
+                        title={`Full Stack developer Intern`}
+                        subTitle={'Ranor Software de Rastreamento'}
+                        text={`I started in April 2021 doing a mandatory 140-hour internship, after that I switched to the internship
+                        paid and remain until then. At the company I worked with frontend using technologies such as: ReactJs,
+                        React Native, StyledComponents, CSS Sass, Ionic, Stylesheet, Vuejs and other libraries. Already in the backend I built
+                        an app using: Nodejs, Sequelize, PostgreSQL and docker. In addition, I worked on other projects with
+                        Apache servers using PHP and PostgreSQL.`} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
@@ -42,22 +34,17 @@ function Resume() {
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'201 - 2022'} 
+                        year={'2019 - Present, ending in December 2022'} 
                         title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsuum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        subTitle={`IF Sul De Minas –
+                        Campus Passos`}
+                        text={'Studying 7th Period of Computer Science at the Federal Institute of Science, Education and Technology of the South of Minas Gerais, Campus Passos.'} 
                     />
                     <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsusm dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
+                        year={'2016 - 2019'} 
                         title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        subTitle={'EE Padre José Espíndola'}
+                        text={' I graduated in the year of 2016 with a high school graduation certificate.'} 
                     />
                 </div>
             </InnerLayout>

@@ -10,10 +10,6 @@ function Particle() {
                   fpsLimit: 120,
                   interactivity: {
                     events: {
-                      onClick: {
-                        enable: true,
-                        mode: "push",
-                      },
                       onHover: {
                         enable: true,
                         mode: "repulse",
@@ -41,7 +37,7 @@ function Particle() {
                       value: "#636e72",
                     },
                     links: {
-                      color: "#ffffff",
+                      color: "#636e72",
                       distance: 80,
                       enable: true,
                       opacity: 0.1,
@@ -63,7 +59,7 @@ function Particle() {
                         enable: true,
                         area: 800,
                       },
-                      value: 60,
+                      value: 20,
                     },
                     opacity: {
                       value: 0.5,

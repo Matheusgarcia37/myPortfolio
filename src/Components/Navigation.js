@@ -23,17 +23,14 @@ function Navigation({setNavToggle}) {
                     <NavLink to="/resume" onClick={closeNav} activeClassName="active-class" exact>Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" onClick={closeNav} activeClassName="active-class" exact>Portfolios</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/blogs" onClick={closeNav} activeClassName="active-class" exact>Blogs</NavLink>
+                    <NavLink to="/projects" onClick={closeNav} activeClassName="active-class" exact>Projects</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/contact" onClick={closeNav} activeClassName="active-class" exact>Contact</NavLink>
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Matheus Garcia Moreira</b></p>
+                <p>@2022 <b>Matheus Garcia Moreira</b></p>
             </footer>
         </NavigationStyled>
     )
@@ -41,7 +38,7 @@ function Navigation({setNavToggle}) {
 
 const NavigationStyled = styled.nav`
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     flex-direction: column;
     align-items: center;
     height: 100%;
@@ -53,13 +50,16 @@ const NavigationStyled = styled.nav`
         text-align: center;
         padding: 1rem 0;
         img{
-            width: 70%;
-            border-radius: 50%;
+            width: 80%;
+            border-radius: 30%;
             border: 8px solid var(--border-color);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.9);
         }
     }
 
     .nav-items{
+        height: 100%;
+        margin-top: 10%;
         width: 100%;
         text-align: center;
         .active-class{

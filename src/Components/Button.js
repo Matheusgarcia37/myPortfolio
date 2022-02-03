@@ -2,10 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 function Button({filter, button}) {
+    const newButton = [];
+    button.forEach((item) => {
+        const filtros = item.split('|');
+        newButton.push(...filtros);
+    })
+    //remove duplicates
+    const unique = [...new Set(newButton)];
+
     return (
         <ButtonsStyled>
             {
-                button.map((but, i) =>{
+                unique.map((but, i) =>{
                     return <ButtonStyled key={i} onClick={() => filter(but)}>
                         {but}
                     </ButtonStyled>

@@ -6,8 +6,7 @@ import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
-import PortfoliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
+import ProjectsPage from './Pages/Projects';
 import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -64,13 +63,6 @@ function App() {
         </div>
 
         <MainContentStyled>
-          <div className="lines">
-            <div className="line-1"></div>
-            <div className="line-2"></div>
-            <div className="line-3"></div>
-            <div className="line-4"></div>
-          </div>
-
           <Switching>
             <Route path="/" exact>
               <HomePage />
@@ -81,11 +73,8 @@ function App() {
             <Route path="/resume" exact>
               <ResumePage />
             </Route>
-            <Route path="/portfolios" exact>
-              <PortfoliosPage />
-            </Route>
-            <Route path="/blogs" exact>
-               <BlogsPage />
+            <Route path="/projects" exact>
+              <ProjectsPage />
             </Route>
             <Route path="/contact" exact>
               <ContactPage />

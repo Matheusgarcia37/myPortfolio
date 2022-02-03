@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components';
+import background from '../img/background.jpg';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -74,6 +75,7 @@ body{
     background-color: var(--background-dark-color);
     color: var(--font-light-color);
     transition: all .4s ease-in-out;
+    background-image: url(${background});
 }
 
 body::-webkit-scrollbar{
@@ -170,7 +172,7 @@ h6{
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.8);
         z-index: 10;
         display: none;
         &.maskActive {

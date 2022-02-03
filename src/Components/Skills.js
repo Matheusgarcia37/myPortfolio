@@ -12,39 +12,74 @@ function Skills() {
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
-                            title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
+                            title={'React JS'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                         <ProgressBar 
+                            title={'Next.js'}
+                            width={'75%'}
+                            text={'75%'}
                         />
                         <ProgressBar 
-                            title={'CSS3'}
+                            title={'React Native'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                         <ProgressBar 
+                            title={'Ionic'}
+                            width={'72%'}
+                            text={'72%'}
+                        />
+                        <ProgressBar 
+                            title={'Node JS'}
+                            width={'82%'}
+                            text={'82%'}
+                        />
+                        <ProgressBar 
+                            title={'PostgreSQL'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                          <ProgressBar 
+                            title={'ORMs'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                         <ProgressBar 
+                            title={'JAVASCRIPT'}
                             width={'90%'}
                             text={'90%'}
                         />
                         <ProgressBar 
-                            title={'JAVASCRIPT'}
+                            title={'TYPESCRIPT'}
                             width={'85%'}
                             text={'85%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
-                            width={'60%'}
-                            text={'60%'}
+                            title={'C'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                          <ProgressBar 
+                            title={'PHP'}
+                            width={'75%'}
+                            text={'75%'}
                         />
                         <ProgressBar 
                             title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                          <ProgressBar 
+                            title={'HTTP'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                         <ProgressBar 
-                            title={'React JS'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
-                        <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
+                            title={'ENGLISH'}
+                            width={'67%'}
+                            text={'67%'}
                         />
                     </div>
                 </InnerLayout>
